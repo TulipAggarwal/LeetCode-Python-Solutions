@@ -1,5 +1,5 @@
 class Solution:
-    def minSetSize(self, arr: List[int]) -> int:
+    def minSetSize(self, arr: List[int]) -> int :
         remove = 0
         nums = collections.Counter(arr)  # using collections.Counter here to determine the frequency count of each element in the array
         values = sorted(nums.values(), reverse = True) # using sorted() to sort the nums array in reverse order
